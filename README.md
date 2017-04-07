@@ -1,15 +1,19 @@
 # basic-shell
 
-
-This project contains:my_shell.c,
+This repository contains:my_shell.c,
                       a makefile that compiles the C file
                       and a my_shell executable
 
+## Author
+Jason Soliman
 
-The shell prints out a prompt,
-          reads a line from the user
-          and parses the line into arguments that are used to execute commands.
+## Work Flow
+* The shell prints out a prompt
+* Read a line from user input
+* The shell parses the input into tokens that are used to execute commands.
 
-The fork() system is used to create new processes, and the entire shell runs in a loop.
 
-There are also internal commands: exit, pwd, history and cd.
+## Additional Feature
+The fork() system call is used to create new a child process.The shell runs in a loop that exits when user input command "exit"
+
+There are also internal commands: pwd, history and cd.
